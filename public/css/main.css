@@ -1,0 +1,93 @@
+/* configurando o menu / navbar */
+.navbar {
+    background-color: teal;
+}
+/* altera titulo dentro do site*/
+.tex {
+    color: white;
+    /*text-align: center;*/
+    margin-top: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* altera o alinhamento do menu */
+.collapse {
+    justify-content: flex-end;
+}
+
+/* altera os links do menu */
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {}
+
+.active {
+    color: white;
+}
+
+/* fim navbar */
+
+/* haeder */
+.header {
+    background-image: url(../images/6.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* posicionar objetos e textos ao centro */
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    transform: translate(-50%, -55%);
+}
+
+.description h1 {
+    color: #e67349;
+    font-weight: bold;
+
+}
+
+.description p {
+    color: white;
+}
+
+/* fim header */
+
+/* servicos */
+.servicos{
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+.servicos h3{
+    color: rgb(255, 0, 0);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.servicos img{
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    /* sombras para navegadores especificos 
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    */
+    border-radius: 15px;
+
+}
+
+/* serviçoes fim */
